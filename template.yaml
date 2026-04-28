@@ -7,7 +7,9 @@ Globals:
     Cors:
       AllowOrigin: "'*'"
       AllowMethods: "'GET,OPTIONS'"
-      AllowHeaders: "'Content-Type'"
+      AllowHeaders: "'Content-Type,X-Api-Key'"
+    Auth:
+      ApiKeyRequired: true
 
 Parameters:
   DomainName:
@@ -16,6 +18,10 @@ Parameters:
   HostedZoneId:
     Type: String
     Description: Route53 Hosted Zone ID for suhebghare.tech
+  ApiKeyValue:
+    Type: String
+    NoEcho: true
+    Description: API key value for authentication
 
 Resources:
   ApiCertificate:
@@ -52,6 +58,33 @@ Resources:
       AliasTarget:
         DNSName: !GetAtt ApiGatewayDomainName.RegionalDomainName
         HostedZoneId: !GetAtt ApiGatewayDomainName.RegionalHostedZoneId
+
+  ApiKey:
+    Type: AWS::ApiGateway::ApiKey
+    DependsOn: ServerlessRestApiProdStage
+    Properties:
+      Name: suhebghare-api-key
+      Enabled: true
+      Value: !Ref ApiKeyValue
+      StageKeys:
+        - RestApiId: !Ref ServerlessRestApi
+          StageName: Prod
+
+  UsagePlan:
+    Type: AWS::ApiGateway::UsagePlan
+    DependsOn: ServerlessRestApiProdStage
+    Properties:
+      UsagePlanName: suhebghare-usage-plan
+      ApiStages:
+        - ApiId: !Ref ServerlessRestApi
+          Stage: Prod
+
+  UsagePlanKey:
+    Type: AWS::ApiGateway::UsagePlanKey
+    Properties:
+      KeyId: !Ref ApiKey
+      KeyType: API_KEY
+      UsagePlanId: !Ref UsagePlan
 
   ProfileFunction:
     Type: AWS::Serverless::Function
