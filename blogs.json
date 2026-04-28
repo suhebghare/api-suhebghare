@@ -1,0 +1,1241 @@
+{
+  "$schema": "https://blogs.suhebghare.tech/profile.json",
+  "version": "1.0.0",
+  "generated": "2025-04-28",
+  "profile": {
+    "name": "Suheb Ghare",
+    "title": "Senior DevOps & SRE Engineer",
+    "tagline": "Building and scaling cloud infrastructure at production scale",
+    "bio": "Senior DevOps & SRE Engineer with 8+ years of experience designing, building, and operating cloud-native infrastructure. Specializing in Kubernetes (EKS), AWS, CI/CD platform engineering, observability, and AI-powered DevOps automation. I write about real production challenges — not tutorials, but lessons learned from running systems at scale.",
+    "location": "India",
+    "website": "https://suhebghare.tech",
+    "blog": "https://blogs.suhebghare.tech",
+    "social": {
+      "portfolio": "https://suhebghare.tech",
+      "blog": "https://blogs.suhebghare.tech"
+    }
+  },
+  "experience": [
+    {
+      "role": "Senior DevOps & SRE Engineer",
+      "type": "Full-time",
+      "duration": "8+ years",
+      "highlights": [
+        "Reduced Black Friday AWS spend by 52% ($127K → $61K) while handling 3x more traffic",
+        "Built Internal Developer Platform used by 200+ engineers, reducing onboarding from 3 weeks to 2 hours",
+        "Designed reusable CI/CD template library achieving 95% code reuse across 50+ teams, saving 40 hours/month",
+        "Migrated from Cluster Autoscaler to Karpenter, saving $1,700/month (20% compute cost reduction)",
+        "Implemented secrets management system with zero leaks over 18 months across 500+ secrets",
+        "Reduced AWS bill from $180K to $108K/month (40% reduction) through systematic optimization",
+        "Cut MTTR from 47 minutes to 11 minutes using LLM-powered incident analysis",
+        "Reduced alert fatigue by 73% — from 200 noisy alerts/week to 27 actionable ones using ML correlation",
+        "Managed 500+ Terraform resources across 50+ AWS accounts",
+        "Designed multi-environment EKS architecture across 3 clusters and 2 AWS accounts"
+      ]
+    }
+  ],
+  "skills": {
+    "container_orchestration": [
+      "Kubernetes (EKS)",
+      "Karpenter",
+      "Helm",
+      "ArgoCD",
+      "Argo Rollouts",
+      "StatefulSets",
+      "PodDisruptionBudgets",
+      "KEDA",
+      "Cluster Autoscaler"
+    ],
+    "cloud_platforms": [
+      "AWS (primary)",
+      "Amazon EKS",
+      "Amazon RDS / Aurora Serverless",
+      "AWS Lambda",
+      "AWS S3",
+      "AWS CloudFront",
+      "AWS WAF",
+      "AWS Secrets Manager",
+      "AWS Cost Explorer",
+      "AWS Config",
+      "AWS GuardDuty",
+      "AWS IAM / IRSA",
+      "AWS EventBridge",
+      "AWS SQS / SNS",
+      "AWS Fargate",
+      "AWS Batch"
+    ],
+    "cicd_platform_engineering": [
+      "GitHub Actions",
+      "ArgoCD",
+      "GitOps",
+      "Atlantis",
+      "Backstage (IDP)",
+      "Crossplane",
+      "Reusable Workflow Templates",
+      "Actions Runner Controller (ARC)",
+      "Renovate"
+    ],
+    "infrastructure_as_code": [
+      "Terraform",
+      "Terragrunt",
+      "AWS CDK",
+      "Helm Charts",
+      "Crossplane Compositions",
+      "Kustomize"
+    ],
+    "observability": [
+      "Prometheus",
+      "Grafana",
+      "Loki",
+      "Jaeger",
+      "OpenTelemetry",
+      "AWS CloudWatch",
+      "PagerDuty",
+      "Alertmanager",
+      "Datadog"
+    ],
+    "security": [
+      "AWS WAF",
+      "CloudFront Security Headers",
+      "IAM Least Privilege",
+      "IRSA (IAM Roles for Service Accounts)",
+      "Sealed Secrets",
+      "External Secrets Operator",
+      "Kubernetes RBAC",
+      "Network Policies",
+      "PCI-DSS Architecture",
+      "ISO 27001 Controls",
+      "AWS Security Hub",
+      "AWS GuardDuty",
+      "Trivy",
+      "Checkov",
+      "Semgrep"
+    ],
+    "ai_devops": [
+      "LLM Integration (GPT-4o, Claude 3.5)",
+      "MCP (Model Context Protocol)",
+      "AI Agents (LangChain, ReAct)",
+      "RAG Pipelines",
+      "Prompt Engineering",
+      "ML Alert Correlation",
+      "AI-powered Incident Analysis",
+      "AWS Cost Anomaly Detection",
+      "Vector Databases (Qdrant)"
+    ],
+    "databases": [
+      "PostgreSQL",
+      "MySQL / Aurora",
+      "Redis",
+      "DynamoDB",
+      "Zero-downtime Migrations",
+      "gh-ost",
+      "pt-online-schema-change"
+    ],
+    "programming": [
+      "Python",
+      "Bash / Shell Scripting",
+      "Go (basics)",
+      "YAML / JSON",
+      "HCL (Terraform)",
+      "SQL"
+    ],
+    "methodologies": [
+      "SRE (SLOs, SLIs, Error Budgets)",
+      "GitOps",
+      "Platform Engineering",
+      "Chaos Engineering",
+      "FinOps",
+      "Blameless Postmortems",
+      "Incident Management",
+      "Capacity Planning"
+    ]
+  },
+  "expertise_areas": [
+    {
+      "area": "Kubernetes & EKS",
+      "level": "Expert",
+      "years": 6,
+      "articles": 7
+    },
+    {
+      "area": "AWS Cloud Infrastructure",
+      "level": "Expert",
+      "years": 8,
+      "articles": 8
+    },
+    {
+      "area": "CI/CD & Platform Engineering",
+      "level": "Expert",
+      "years": 7,
+      "articles": 9
+    },
+    {
+      "area": "Security",
+      "level": "Advanced",
+      "years": 6,
+      "articles": 8
+    },
+    {
+      "area": "Observability & SRE",
+      "level": "Expert",
+      "years": 7,
+      "articles": 7
+    },
+    {
+      "area": "AI & DevOps Automation",
+      "level": "Advanced",
+      "years": 2,
+      "articles": 8
+    }
+  ],
+  "projects": [
+    {
+      "name": "Internal Developer Platform (IDP)",
+      "description": "Built a full IDP from scratch used by 200+ engineers. Backstage as portal, Crossplane for self-service infrastructure, ArgoCD for deployments, Vault for secrets, Grafana for observability.",
+      "impact": "Reduced time-to-first-deploy from 3 weeks to 2 hours. Infra support tickets down 70%.",
+      "tech": [
+        "Backstage",
+        "Crossplane",
+        "ArgoCD",
+        "Vault",
+        "Grafana",
+        "Kubernetes",
+        "AWS"
+      ],
+      "article": "https://blogs.suhebghare.tech/posts/building-internal-developer-platform.html"
+    },
+    {
+      "name": "CI/CD Template Library",
+      "description": "Reusable GitHub Actions workflow templates for Docker build, EKS deploy, multi-language testing, and security scanning. Used by 50+ teams.",
+      "impact": "95% code reuse, build time from 14 min to 6 min, security fix rollout from 2 weeks to same day.",
+      "tech": [
+        "GitHub Actions",
+        "Docker",
+        "Helm",
+        "EKS",
+        "Trivy",
+        "ECR"
+      ],
+      "article": "https://blogs.suhebghare.tech/posts/reusable-cicd-templates.html"
+    },
+    {
+      "name": "Black Friday Cost Optimization",
+      "description": "Reduced AWS spend by 52% for Black Friday peak traffic. Karpenter + Spot instances, Aurora Serverless v2, CloudFront caching, VPC endpoints.",
+      "impact": "$127K → $61K (5-day spend) while handling 3x more traffic.",
+      "tech": [
+        "Karpenter",
+        "AWS Spot",
+        "Aurora Serverless v2",
+        "CloudFront",
+        "EKS"
+      ],
+      "article": "https://blogs.suhebghare.tech/posts/black-friday-aws-cost-reduction.html"
+    },
+    {
+      "name": "LLM-Powered Incident Analysis",
+      "description": "Built a system that automatically analyzes production incidents using GPT-4o. Fetches Prometheus metrics, CloudWatch logs, and K8s events, then generates structured RCA.",
+      "impact": "MTTR reduced from 41 minutes to 11 minutes. Cost: $0.08 per incident analysis.",
+      "tech": [
+        "GPT-4o",
+        "Python",
+        "Prometheus",
+        "CloudWatch",
+        "PagerDuty",
+        "Slack",
+        "AWS Lambda"
+      ],
+      "article": "https://blogs.suhebghare.tech/posts/llm-production-incident-mttr.html"
+    },
+    {
+      "name": "ML Alert Correlation System",
+      "description": "ML-based alert correlation using DBSCAN clustering to reduce alert noise. GPT-4 generates human-readable alert summaries with context.",
+      "impact": "Alert volume from 200/week to 27/week (73% reduction). False positive rate from 68% to 12%.",
+      "tech": [
+        "Python",
+        "DBSCAN",
+        "GPT-4",
+        "Prometheus",
+        "AlertManager",
+        "PagerDuty"
+      ],
+      "article": "https://blogs.suhebghare.tech/posts/ai-reduce-alert-fatigue.html"
+    },
+    {
+      "name": "Secrets Management Platform",
+      "description": "End-to-end secrets management using AWS Secrets Manager + External Secrets Operator + Reloader. Path-scoped IAM, automated rotation, prod in separate AWS account.",
+      "impact": "Zero secret leaks over 18 months. 500+ secrets with automated 30-day rotation.",
+      "tech": [
+        "AWS Secrets Manager",
+        "External Secrets Operator",
+        "Reloader",
+        "IRSA",
+        "Kubernetes"
+      ],
+      "article": "https://blogs.suhebghare.tech/posts/secrets-management-environments.html"
+    },
+    {
+      "name": "Multi-Environment EKS Architecture",
+      "description": "Designed 3-cluster EKS setup (dev/staging/prod) across 2 AWS accounts with shared services cluster for ArgoCD, Prometheus, and Vault.",
+      "impact": "Complete blast radius isolation. Dev team cannot access prod even on misconfiguration.",
+      "tech": [
+        "EKS",
+        "ArgoCD",
+        "Prometheus",
+        "Vault",
+        "AWS Organizations",
+        "VPC Peering"
+      ],
+      "article": "https://blogs.suhebghare.tech/posts/multi-environment-eks.html"
+    },
+    {
+      "name": "Terraform at Scale",
+      "description": "Managed 500+ Terraform resources across 50+ AWS accounts. Module library, remote state with S3+DynamoDB, Terragrunt for DRY configs, GitHub Actions CI/CD.",
+      "impact": "Plan time from 12 minutes to 45 seconds after splitting monolith. Full GitOps IaC workflow.",
+      "tech": [
+        "Terraform",
+        "Terragrunt",
+        "S3",
+        "DynamoDB",
+        "GitHub Actions",
+        "Infracost"
+      ],
+      "article": "https://blogs.suhebghare.tech/posts/terraform-at-scale.html"
+    }
+  ],
+  "blog": {
+    "url": "https://blogs.suhebghare.tech",
+    "total_articles": 53,
+    "categories": {
+      "CI/CD": 9,
+      "Kubernetes": 7,
+      "Cloud": 8,
+      "Security": 8,
+      "Observability": 7,
+      "AI & DevOps": 8
+    },
+    "articles": [
+      {
+        "slug": "ai-agents-infrastructure-mcp",
+        "title": "Building AI Agents for Infrastructure Automation Using MCP",
+        "description": "",
+        "category": "DevOps",
+        "published": "2024-01-01",
+        "read_time": 20,
+        "reads": 0,
+        "likes": 0,
+        "tags": [],
+        "url": "https://blogs.suhebghare.tech/posts/ai-agents-infrastructure-mcp.html"
+      },
+      {
+        "slug": "ai-aws-cost-anomaly-detection",
+        "title": "AI for AWS Cost Anomaly Detection",
+        "description": "AI-powered AWS cost anomaly detection. AWS built-in ML + custom Prophet forecasting caught a $50K/month spike in 2 hours before it hit the bill.",
+        "category": "AI & DevOps",
+        "published": "2024-11-15",
+        "read_time": 10,
+        "reads": 500,
+        "likes": 177,
+        "tags": [
+          "aws cost anomaly detection",
+          "ai cost monitoring",
+          "aws cost anomaly",
+          "prophet forecasting aws",
+          "ml cost optimization"
+        ],
+        "url": "https://blogs.suhebghare.tech/posts/ai-aws-cost-anomaly-detection.html"
+      },
+      {
+        "slug": "ai-reduce-alert-fatigue",
+        "title": "How AI Can Help SREs Reduce Alert Fatigue",
+        "description": "Using ML to reduce SRE alert fatigue by 73%. DBSCAN clustering, GPT-4 alert summaries, and how we went from 200 noisy alerts/week to 27 actionable ones.",
+        "category": "AI & DevOps",
+        "published": "2024-12-10",
+        "read_time": 10,
+        "reads": 500,
+        "likes": 347,
+        "tags": [
+          "ai alert fatigue sre",
+          "ml alert correlation",
+          "prometheus alert reduction",
+          "ai ops",
+          "aiops alert management"
+        ],
+        "url": "https://blogs.suhebghare.tech/posts/ai-reduce-alert-fatigue.html"
+      },
+      {
+        "slug": "api-abuse-prevention-kubernetes",
+        "title": "Preventing API Abuse in Kubernetes",
+        "description": "Preventing API abuse in Kubernetes at three layers: Nginx Ingress, Istio EnvoyFilter, and application-level. Real incident: scraper at 10K req/min.",
+        "category": "Security",
+        "published": "2024-09-15",
+        "read_time": 10,
+        "reads": 500,
+        "likes": 200,
+        "tags": [
+          "api rate limiting kubernetes",
+          "nginx ingress rate limit",
+          "istio rate limiting",
+          "kubernetes api security",
+          "api abuse prevention"
+        ],
+        "url": "https://blogs.suhebghare.tech/posts/api-abuse-prevention-kubernetes.html"
+      },
+      {
+        "slug": "argo-rollouts-canary-deployments",
+        "title": "Argo Rollouts & Canary Deployments",
+        "description": "Production-grade canary deployments with Argo Rollouts. AnalysisTemplate with Prometheus, automated rollback, and a real memory leak caught at 10% traffic.",
+        "category": "CI/CD",
+        "published": "2024-11-20",
+        "read_time": 10,
+        "reads": 500,
+        "likes": 221,
+        "tags": [
+          "argo rollouts",
+          "canary deployment kubernetes",
+          "progressive delivery",
+          "kubernetes canary",
+          "argo rollouts tutorial"
+        ],
+        "url": "https://blogs.suhebghare.tech/posts/argo-rollouts-canary-deployments.html"
+      },
+      {
+        "slug": "aws-compute-types",
+        "title": "AWS Compute Types & Cost Optimization",
+        "description": "EC2, Fargate, Lambda, Batch \\u2014 when to use what. Real cost comparison at 1,000 req/min. Graviton3 ARM saves 20% on compute-heavy workloads.",
+        "category": "Cloud",
+        "published": "2024-10-08",
+        "read_time": 10,
+        "reads": 500,
+        "likes": 351,
+        "tags": [
+          "aws compute types",
+          "ec2 vs fargate vs lambda",
+          "aws compute cost",
+          "graviton3 arm aws",
+          "eks vs fargate"
+        ],
+        "url": "https://blogs.suhebghare.tech/posts/aws-compute-types.html"
+      },
+      {
+        "slug": "aws-serverless-architecture",
+        "title": "AWS Serverless Architecture & Cost Optimization",
+        "description": "Building event-driven systems with Lambda, SQS, SNS, and EventBridge. Cold start benchmarks, DLQ setup, Step Functions, and real cost comparisons.",
+        "category": "Cloud",
+        "published": "2024-10-18",
+        "read_time": 10,
+        "reads": 500,
+        "likes": 222,
+        "tags": [
+          "aws serverless architecture",
+          "lambda sqs eventbridge",
+          "aws lambda production",
+          "serverless kubernetes",
+          "event driven aws"
+        ],
+        "url": "https://blogs.suhebghare.tech/posts/aws-serverless-architecture.html"
+      },
+      {
+        "slug": "aws-storage-types",
+        "title": "AWS Storage Types & Cost Optimization",
+        "description": "S3, EBS, EFS, FSx \\u2014 choosing the right AWS storage. gp3 vs gp2 migration, S3 Intelligent-Tiering, and the gp2 IOPS burst incident.",
+        "category": "Cloud",
+        "published": "2024-09-28",
+        "read_time": 10,
+        "reads": 500,
+        "likes": 232,
+        "tags": [
+          "aws storage types",
+          "ebs gp3 vs gp2",
+          "s3 storage classes",
+          "efs vs ebs",
+          "aws storage cost optimization"
+        ],
+        "url": "https://blogs.suhebghare.tech/posts/aws-storage-types.html"
+      },
+      {
+        "slug": "black-friday-aws-cost-reduction",
+        "title": "How We Reduced Black Friday AWS Spend by 52%",
+        "description": "How we reduced Black Friday AWS spend by 52% \\u2014 from $127K to $61K while handling 3x more traffic. Exact strategies and configs.",
+        "category": "Kubernetes",
+        "published": "2024-11-28",
+        "read_time": 10,
+        "reads": 500,
+        "likes": 355,
+        "tags": [
+          "aws cost optimization",
+          "black friday aws",
+          "eks cost reduction",
+          "spot instances",
+          "karpenter cost savings"
+        ],
+        "url": "https://blogs.suhebghare.tech/posts/black-friday-aws-cost-reduction.html"
+      },
+      {
+        "slug": "building-ai-agent-infrastructure",
+        "title": "Building an AI Agent for Your Infrastructure",
+        "description": "Building an AI agent for infrastructure. LangChain + GPT-4o ReAct pattern with kubectl, AWS CLI, and Prometheus tools. Safety guardrails and real diagnosis example.",
+        "category": "AI & DevOps",
+        "published": "2024-10-05",
+        "read_time": 10,
+        "reads": 500,
+        "likes": 314,
+        "tags": [
+          "ai agent infrastructure",
+          "langchain kubernetes",
+          "ai devops agent",
+          "llm infrastructure automation",
+          "ai ops agent"
+        ],
+        "url": "https://blogs.suhebghare.tech/posts/building-ai-agent-infrastructure.html"
+      },
+      {
+        "slug": "building-internal-developer-platform",
+        "title": "Building an Internal Developer Platform",
+        "description": "Building an IDP used by 200+ engineers in 6 months. Backstage + Crossplane + ArgoCD + Vault. Onboarding from 3 weeks to 2 hours.",
+        "category": "CI/CD",
+        "published": "2024-10-15",
+        "read_time": 10,
+        "reads": 500,
+        "likes": 414,
+        "tags": [
+          "internal developer platform",
+          "idp backstage",
+          "crossplane kubernetes",
+          "developer platform",
+          "platform engineering tools"
+        ],
+        "url": "https://blogs.suhebghare.tech/posts/building-internal-developer-platform.html"
+      },
+      {
+        "slug": "can-ai-replace-oncall-engineers",
+        "title": "Can AI Replace On-Call Engineers?",
+        "description": "Can AI replace on-call engineers? Honest 6-month assessment. 34% of pages auto-resolved. What AI can and cannot do in production incident response.",
+        "category": "AI & DevOps",
+        "published": "2024-10-20",
+        "read_time": 10,
+        "reads": 500,
+        "likes": 286,
+        "tags": [
+          "ai on call engineer",
+          "ai incident response automation",
+          "aiops",
+          "auto remediation kubernetes",
+          "ai sre"
+        ],
+        "url": "https://blogs.suhebghare.tech/posts/can-ai-replace-oncall-engineers.html"
+      },
+      {
+        "slug": "chaos-engineering-production",
+        "title": "Chaos Engineering in Production: How We Break Things on Purpose",
+        "description": "Running chaos experiments safely in production. AWS FIS, Chaos Mesh, GameDay planning, and how we found 3 critical bugs before customers did.",
+        "category": "Observability",
+        "published": "2024-12-22",
+        "read_time": 10,
+        "reads": 870,
+        "likes": 367,
+        "tags": [
+          "chaos engineering production",
+          "aws fault injection simulator",
+          "chaos mesh kubernetes",
+          "gameday sre",
+          "chaos engineering tools"
+        ],
+        "url": "https://blogs.suhebghare.tech/posts/chaos-engineering-production.html"
+      },
+      {
+        "slug": "chatgpt-terraform-safety",
+        "title": "ChatGPT + Terraform – Is It Safe?",
+        "description": "Is AI-generated Terraform safe for production? 3-month test found 6 security issues. What AI gets right, what it gets wrong, and our safe workflow.",
+        "category": "AI & DevOps",
+        "published": "2024-09-10",
+        "read_time": 10,
+        "reads": 500,
+        "likes": 360,
+        "tags": [
+          "chatgpt terraform",
+          "ai generated terraform",
+          "terraform security",
+          "llm infrastructure code",
+          "ai iac safety"
+        ],
+        "url": "https://blogs.suhebghare.tech/posts/chatgpt-terraform-safety.html"
+      },
+      {
+        "slug": "cloud-cost-optimization",
+        "title": "Cloud Cost Optimization: Doing More with Less",
+        "description": "Reduced AWS bill from $180K to $108K/month (40%). Five-phase framework: visibility, right-sizing, waste elimination, architecture, and commitment discounts.",
+        "category": "Cloud",
+        "published": "2024-12-01",
+        "read_time": 10,
+        "reads": 500,
+        "likes": 313,
+        "tags": [
+          "aws cost optimization",
+          "cloud cost reduction",
+          "aws savings plans",
+          "ec2 right sizing",
+          "aws waste elimination"
+        ],
+        "url": "https://blogs.suhebghare.tech/posts/cloud-cost-optimization.html"
+      },
+      {
+        "slug": "cloudfront-waf-best-practices",
+        "title": "CloudFront + WAF Best Practices",
+        "description": "Production-hardened CloudFront + WAF serving 50M requests/day. Cache hit rate from 45% to 78%, security headers, WAF rule groups, and full Terraform.",
+        "category": "Security",
+        "published": "2024-09-25",
+        "read_time": 10,
+        "reads": 500,
+        "likes": 200,
+        "tags": [
+          "cloudfront waf best practices",
+          "cloudfront security headers",
+          "aws waf managed rules",
+          "cloudfront caching",
+          "cloudfront terraform"
+        ],
+        "url": "https://blogs.suhebghare.tech/posts/cloudfront-waf-best-practices.html"
+      },
+      {
+        "slug": "cost-allocation-tagging-strategy",
+        "title": "AWS Cost Allocation: The Tagging Strategy That Actually Scales",
+        "description": "AWS tagging strategy that actually scales. Mandatory taxonomy, SCP enforcement, Kubecost for EKS, and how we found $18K/month in untagged spend.",
+        "category": "Cloud",
+        "published": "2024-12-30",
+        "read_time": 10,
+        "reads": 780,
+        "likes": 312,
+        "tags": [
+          "aws cost allocation",
+          "aws tagging strategy",
+          "kubecost eks",
+          "aws cost explorer",
+          "cloud cost showback chargeback"
+        ],
+        "url": "https://blogs.suhebghare.tech/posts/cost-allocation-tagging-strategy.html"
+      },
+      {
+        "slug": "credential-stuffing-aws",
+        "title": "Handling Credential Stuffing Attacks in AWS",
+        "description": "Stopping a 500K req/hour credential stuffing attack on AWS. Detection, 4-layer mitigation, Cognito advanced security, and long-term prevention.",
+        "category": "Security",
+        "published": "2024-11-05",
+        "read_time": 10,
+        "reads": 500,
+        "likes": 200,
+        "tags": [
+          "credential stuffing aws",
+          "cognito security",
+          "aws waf login protection",
+          "account takeover prevention",
+          "aws security"
+        ],
+        "url": "https://blogs.suhebghare.tech/posts/credential-stuffing-aws.html"
+      },
+      {
+        "slug": "database-migrations-zero-downtime",
+        "title": "Zero-Downtime Database Migrations on Live Production Systems",
+        "description": "Zero-downtime database migrations on live systems. Expand-contract pattern, column renames, NOT NULL without locking, and the ALTER TABLE that locked prod for 8 minutes.",
+        "category": "Observability",
+        "published": "2025-01-08",
+        "read_time": 10,
+        "reads": 1050,
+        "likes": 421,
+        "tags": [
+          "zero downtime database migration",
+          "postgres migration production",
+          "expand contract pattern",
+          "gh-ost pt-osc",
+          "alter table lock"
+        ],
+        "url": "https://blogs.suhebghare.tech/posts/database-migrations-zero-downtime.html"
+      },
+      {
+        "slug": "devops-automation",
+        "title": "DevOps Automation & CI/CD Pipelines",
+        "description": "What to automate first for highest ROI. Deployment frequency from 2/week to 15/day. Real automation wins with GitHub Actions, Terraform, and Renovate.",
+        "category": "CI/CD",
+        "published": "2024-09-30",
+        "read_time": 10,
+        "reads": 500,
+        "likes": 294,
+        "tags": [
+          "devops automation",
+          "cicd automation",
+          "github actions automation",
+          "terraform automation",
+          "deployment automation"
+        ],
+        "url": "https://blogs.suhebghare.tech/posts/devops-automation.html"
+      },
+      {
+        "slug": "eks-networking-deep-dive",
+        "title": "EKS Networking Deep Dive: VPC CNI, Security Groups, and Network Policies",
+        "description": "",
+        "category": "DevOps",
+        "published": "2024-01-01",
+        "read_time": 10,
+        "reads": 1180,
+        "likes": 468,
+        "tags": [],
+        "url": "https://blogs.suhebghare.tech/posts/eks-networking-deep-dive.html"
+      },
+      {
+        "slug": "geo-blocking-vs-rate-limiting",
+        "title": "Geo-Blocking vs Rate Limiting – What Works?",
+        "description": "Geo-blocking vs rate limiting tested under real attack conditions. Data-driven comparison: geo-blocking stopped 67%, rate limiting stopped 89% with fewer false positives.",
+        "category": "Security",
+        "published": "2024-11-25",
+        "read_time": 10,
+        "reads": 500,
+        "likes": 200,
+        "tags": [
+          "geo blocking aws waf",
+          "rate limiting aws",
+          "waf geo restriction",
+          "cloudfront geo blocking",
+          "ddos protection aws"
+        ],
+        "url": "https://blogs.suhebghare.tech/posts/geo-blocking-vs-rate-limiting.html"
+      },
+      {
+        "slug": "gitops-with-argocd",
+        "title": "GitOps with ArgoCD: From Zero to Production-Grade",
+        "description": "GitOps with ArgoCD from zero to production-grade. App-of-apps, ApplicationSets, secrets management, sync waves, and managing 50+ apps across 3 clusters.",
+        "category": "CI/CD",
+        "published": "2024-12-20",
+        "read_time": 10,
+        "reads": 1050,
+        "likes": 431,
+        "tags": [
+          "gitops argocd",
+          "argocd tutorial",
+          "app of apps argocd",
+          "argocd kubernetes",
+          "gitops kubernetes"
+        ],
+        "url": "https://blogs.suhebghare.tech/posts/gitops-with-argocd.html"
+      },
+      {
+        "slug": "incident-response-postmortems",
+        "title": "Incident Response & Postmortems: Learning from Failure",
+        "description": "Incident response playbook that cut MTTR by 60%. Five phases, severity levels, war room roles, blameless postmortems, and action item tracking.",
+        "category": "Observability",
+        "published": "2024-11-02",
+        "read_time": 10,
+        "reads": 500,
+        "likes": 327,
+        "tags": [
+          "incident response playbook",
+          "postmortem template",
+          "sre incident management",
+          "mttr reduction",
+          "blameless postmortem"
+        ],
+        "url": "https://blogs.suhebghare.tech/posts/incident-response-postmortems.html"
+      },
+      {
+        "slug": "infrastructure-as-code",
+        "title": "Infrastructure as Code: Terraform & Ansible",
+        "description": "Terraform best practices for teams managing 50+ AWS accounts. Module design, state isolation, GitOps workflow, drift detection, and common mistakes.",
+        "category": "Cloud",
+        "published": "2024-11-12",
+        "read_time": 10,
+        "reads": 500,
+        "likes": 164,
+        "tags": [
+          "infrastructure as code terraform",
+          "terraform best practices",
+          "terraform modules",
+          "terraform gitops",
+          "iac cicd"
+        ],
+        "url": "https://blogs.suhebghare.tech/posts/infrastructure-as-code.html"
+      },
+      {
+        "slug": "iso27001-devops-controls",
+        "title": "ISO 27001 Controls for DevOps Engineers",
+        "description": "ISO 27001 controls for DevOps engineers. Practical implementation in AWS/Kubernetes, automated evidence collection, and audit prep from 3 weeks to 3 days.",
+        "category": "Security",
+        "published": "2024-10-10",
+        "read_time": 10,
+        "reads": 500,
+        "likes": 200,
+        "tags": [
+          "iso 27001 devops",
+          "iso 27001 aws",
+          "iso 27001 controls implementation",
+          "compliance automation aws",
+          "iso 27001 kubernetes"
+        ],
+        "url": "https://blogs.suhebghare.tech/posts/iso27001-devops-controls.html"
+      },
+      {
+        "slug": "karpenter-vs-cluster-autoscaler",
+        "title": "Karpenter vs Cluster Autoscaler – Real Production Comparison",
+        "description": "Real production comparison of Karpenter vs Cluster Autoscaler on EKS. Scale-up time, cost savings, migration strategy, and when to use each.",
+        "category": "Kubernetes",
+        "published": "2024-10-05",
+        "read_time": 10,
+        "reads": 500,
+        "likes": 355,
+        "tags": [
+          "karpenter",
+          "cluster autoscaler",
+          "eks autoscaling",
+          "kubernetes node provisioning",
+          "aws eks cost optimization"
+        ],
+        "url": "https://blogs.suhebghare.tech/posts/karpenter-vs-cluster-autoscaler.html"
+      },
+      {
+        "slug": "kubernetes-guide",
+        "title": "Kubernetes: The Operating System of the Cloud",
+        "description": "Comprehensive Kubernetes guide for production workloads. Architecture, networking, resource management, RBAC, and the top 5 causes of k8s incidents.",
+        "category": "Kubernetes",
+        "published": "2024-09-05",
+        "read_time": 10,
+        "reads": 500,
+        "likes": 250,
+        "tags": [
+          "kubernetes production guide",
+          "eks",
+          "k8s architecture",
+          "kubernetes networking",
+          "kubernetes rbac"
+        ],
+        "url": "https://blogs.suhebghare.tech/posts/kubernetes-guide.html"
+      },
+      {
+        "slug": "linux-server-management",
+        "title": "Linux: The Backbone of Modern Infrastructure",
+        "description": "Essential Linux skills for DevOps engineers. USE method, performance troubleshooting toolkit, systemd, cgroups, kernel tuning, and SSH hardening.",
+        "category": "Cloud",
+        "published": "2024-09-12",
+        "read_time": 10,
+        "reads": 500,
+        "likes": 154,
+        "tags": [
+          "linux server management",
+          "linux performance tuning",
+          "linux troubleshooting",
+          "devops linux",
+          "sysctl tuning production"
+        ],
+        "url": "https://blogs.suhebghare.tech/posts/linux-server-management.html"
+      },
+      {
+        "slug": "llm-analyze-incident-logs",
+        "title": "Using LLMs to Analyze Incident Logs",
+        "description": "Using GPT-4 to analyze incident logs. PagerDuty \\u2192 Lambda \\u2192 CloudWatch \\u2192 GPT-4 pipeline. RCA time from 45 minutes to 8 minutes at $0.08/incident.",
+        "category": "AI & DevOps",
+        "published": "2024-11-30",
+        "read_time": 10,
+        "reads": 500,
+        "likes": 138,
+        "tags": [
+          "llm incident analysis",
+          "gpt4 log analysis",
+          "ai incident response",
+          "llm devops",
+          "ai sre tools"
+        ],
+        "url": "https://blogs.suhebghare.tech/posts/llm-analyze-incident-logs.html"
+      },
+      {
+        "slug": "llm-production-incident-mttr",
+        "title": "Using LLMs to Analyze Production Incidents and Reduce MTTR",
+        "description": "Using LLMs to analyze production incidents and reduce MTTR from 41 to 11 minutes. Multi-signal architecture: Prometheus, Loki, CloudWatch, traces. Real Python code, cost trade-offs, PII concerns.",
+        "category": "AI & DevOps",
+        "published": "2025-04-27",
+        "read_time": 22,
+        "reads": 1,
+        "likes": 0,
+        "tags": [
+          "llm incident analysis",
+          "reduce mttr ai",
+          "ai sre incident response",
+          "gpt4 prometheus logs",
+          "llm devops production"
+        ],
+        "url": "https://blogs.suhebghare.tech/posts/llm-production-incident-mttr.html"
+      },
+      {
+        "slug": "llm-vs-mcp-complete-guide",
+        "title": "LLMs vs MCP: The Complete Guide for Developers and DevOps Engineers",
+        "description": "Run a kubectl command to interact with Kubernetes",
+        "category": "DevOps",
+        "published": "2024-01-01",
+        "read_time": 45,
+        "reads": 1,
+        "likes": 0,
+        "tags": [],
+        "url": "https://blogs.suhebghare.tech/posts/llm-vs-mcp-complete-guide.html"
+      },
+      {
+        "slug": "llms-production-backend-systems",
+        "title": "Integrating LLMs into Production Backend Systems",
+        "description": "",
+        "category": "DevOps",
+        "published": "2024-01-01",
+        "read_time": 19,
+        "reads": 0,
+        "likes": 0,
+        "tags": [],
+        "url": "https://blogs.suhebghare.tech/posts/llms-production-backend-systems.html"
+      },
+      {
+        "slug": "mcp-servers-devops-automation",
+        "title": "MCP Servers and the Future of DevOps Automation",
+        "description": "MCP Servers and the future of DevOps automation. Building a Kubernetes MCP server, Claude Desktop integration, and what this means for AI-native operations.",
+        "category": "AI & DevOps",
+        "published": "2024-09-20",
+        "read_time": 10,
+        "reads": 500,
+        "likes": 175,
+        "tags": [
+          "mcp server devops",
+          "model context protocol",
+          "mcp kubernetes",
+          "claude devops",
+          "ai tool integration"
+        ],
+        "url": "https://blogs.suhebghare.tech/posts/mcp-servers-devops-automation.html"
+      },
+      {
+        "slug": "mcp-transform-devops-workflows",
+        "title": "How MCP Can Transform DevOps Workflows",
+        "description": "",
+        "category": "DevOps",
+        "published": "2024-01-01",
+        "read_time": 18,
+        "reads": 0,
+        "likes": 0,
+        "tags": [],
+        "url": "https://blogs.suhebghare.tech/posts/mcp-transform-devops-workflows.html"
+      },
+      {
+        "slug": "multi-environment-eks",
+        "title": "How We Designed Multi-Environment EKS for Production Stability",
+        "description": "Single cluster vs multi-cluster EKS design. How we built dev/staging/prod across two AWS accounts with full isolation.",
+        "category": "Kubernetes",
+        "published": "2024-09-22",
+        "read_time": 10,
+        "reads": 500,
+        "likes": 233,
+        "tags": [
+          "multi environment eks",
+          "eks cluster design",
+          "kubernetes environments",
+          "eks dev staging prod",
+          "aws eks architecture"
+        ],
+        "url": "https://blogs.suhebghare.tech/posts/multi-environment-eks.html"
+      },
+      {
+        "slug": "observability-monitoring",
+        "title": "Observability & Monitoring: The Foundation of Uptime",
+        "description": "Building a complete observability stack with Prometheus, Grafana, and OpenTelemetry. Metrics, logs, traces \\u2014 from setup to production cost optimization.",
+        "category": "Observability",
+        "published": "2024-11-22",
+        "read_time": 10,
+        "reads": 500,
+        "likes": 202,
+        "tags": [
+          "observability monitoring kubernetes",
+          "prometheus grafana",
+          "opentelemetry kubernetes",
+          "distributed tracing",
+          "sre monitoring"
+        ],
+        "url": "https://blogs.suhebghare.tech/posts/observability-monitoring.html"
+      },
+      {
+        "slug": "on-call-runbook-design",
+        "title": "Writing On-Call Runbooks That Actually Work at 3am",
+        "description": "Writing on-call runbooks that work at 3am. Decision-tree format, CrashLoopBackOff example, and how we cut MTTR from 47 to 12 minutes.",
+        "category": "Observability",
+        "published": "2024-12-28",
+        "read_time": 10,
+        "reads": 890,
+        "likes": 398,
+        "tags": [
+          "on call runbook",
+          "runbook template",
+          "sre runbook",
+          "incident runbook",
+          "on call engineering"
+        ],
+        "url": "https://blogs.suhebghare.tech/posts/on-call-runbook-design.html"
+      },
+      {
+        "slug": "platform-engineering-vs-devops",
+        "title": "Platform Engineering vs DevOps – What's the Difference?",
+        "description": "Platform Engineering vs DevOps explained. What platform engineering actually means, when you need it, and how it reduces cognitive load from 3 weeks to 2 hours.",
+        "category": "CI/CD",
+        "published": "2024-10-25",
+        "read_time": 10,
+        "reads": 500,
+        "likes": 323,
+        "tags": [
+          "platform engineering vs devops",
+          "internal developer platform",
+          "idp platform engineering",
+          "developer experience",
+          "team topologies"
+        ],
+        "url": "https://blogs.suhebghare.tech/posts/platform-engineering-vs-devops.html"
+      },
+      {
+        "slug": "pod-disruption-budgets-guide",
+        "title": "PodDisruptionBudgets: Why Most Teams Misconfigure Them",
+        "description": "The 7 most common PodDisruptionBudget misconfigurations that block cluster upgrades and cause outages. Real examples and fixes.",
+        "category": "Kubernetes",
+        "published": "2024-11-08",
+        "read_time": 10,
+        "reads": 500,
+        "likes": 237,
+        "tags": [
+          "poddisruptionbudget",
+          "pdb kubernetes",
+          "kubernetes node drain",
+          "cluster upgrade",
+          "kubernetes availability"
+        ],
+        "url": "https://blogs.suhebghare.tech/posts/pod-disruption-budgets-guide.html"
+      },
+      {
+        "slug": "production-node-groups-strategy",
+        "title": "How to Design Production-Grade Node Groups (Spot + OnDemand Strategy)",
+        "description": "4-tier EKS node group strategy for reliability and cost. System, general, memory-optimized, and spot-batch tiers with real Terraform.",
+        "category": "Kubernetes",
+        "published": "2024-11-18",
+        "read_time": 10,
+        "reads": 500,
+        "likes": 271,
+        "tags": [
+          "eks node groups",
+          "kubernetes node groups",
+          "spot instances eks",
+          "eks cost optimization",
+          "karpenter node pools"
+        ],
+        "url": "https://blogs.suhebghare.tech/posts/production-node-groups-strategy.html"
+      },
+      {
+        "slug": "prometheus-alerting-rules",
+        "title": "Prometheus Alerting Rules That Don't Page You for Nothing",
+        "description": "Prometheus alerting rules that don't page you for nothing. Multi-window burn-rate alerting reduced our alerts from 200/week to 12. Real PromQL included.",
+        "category": "Observability",
+        "published": "2025-01-20",
+        "read_time": 10,
+        "reads": 920,
+        "likes": 389,
+        "tags": [
+          "prometheus alerting rules",
+          "prometheus alert fatigue",
+          "multi window burn rate alerting",
+          "alertmanager routing",
+          "sre alerting"
+        ],
+        "url": "https://blogs.suhebghare.tech/posts/prometheus-alerting-rules.html"
+      },
+      {
+        "slug": "reusable-cicd-templates",
+        "title": "Designing Reusable CI/CD Templates",
+        "description": "How we built reusable CI/CD templates giving 95% code reuse across 50+ teams. GitHub Actions reusable workflows, versioning, and enforcement strategy.",
+        "category": "CI/CD",
+        "published": "2024-12-15",
+        "read_time": 10,
+        "reads": 500,
+        "likes": 294,
+        "tags": [
+          "reusable github actions",
+          "github actions templates",
+          "cicd templates",
+          "github actions reusable workflows",
+          "platform engineering cicd"
+        ],
+        "url": "https://blogs.suhebghare.tech/posts/reusable-cicd-templates.html"
+      },
+      {
+        "slug": "secrets-management-environments",
+        "title": "Secrets Management Across Environments",
+        "description": "Zero secret leaks in 18 months. AWS Secrets Manager + External Secrets Operator + automated rotation for 500+ secrets across environments.",
+        "category": "CI/CD",
+        "published": "2024-12-14",
+        "read_time": 10,
+        "reads": 500,
+        "likes": 328,
+        "tags": [
+          "secrets management kubernetes",
+          "aws secrets manager",
+          "external secrets operator",
+          "kubernetes secrets",
+          "secret rotation"
+        ],
+        "url": "https://blogs.suhebghare.tech/posts/secrets-management-environments.html"
+      },
+      {
+        "slug": "secure-ecommerce-architecture",
+        "title": "Secure Architecture Patterns for E-commerce",
+        "description": "PCI-DSS compliant e-commerce architecture on AWS. Network segmentation, tokenization, encryption, immutable audit logs, and breach response plan.",
+        "category": "Security",
+        "published": "2024-10-30",
+        "read_time": 10,
+        "reads": 500,
+        "likes": 200,
+        "tags": [
+          "pci dss aws architecture",
+          "secure ecommerce aws",
+          "payment processing kubernetes",
+          "aws security architecture",
+          "pci compliance aws"
+        ],
+        "url": "https://blogs.suhebghare.tech/posts/secure-ecommerce-architecture.html"
+      },
+      {
+        "slug": "security-best-practices",
+        "title": "Security Best Practices for Modern Applications",
+        "description": "Comprehensive cloud-native security checklist. Seven layers: identity, network, data, compute, application, detection, and incident response with real AWS snippets.",
+        "category": "Security",
+        "published": "2024-09-01",
+        "read_time": 10,
+        "reads": 500,
+        "likes": 217,
+        "tags": [
+          "cloud security best practices",
+          "aws security checklist",
+          "kubernetes security",
+          "iam best practices",
+          "aws guardrails"
+        ],
+        "url": "https://blogs.suhebghare.tech/posts/security-best-practices.html"
+      },
+      {
+        "slug": "self-hosted-runners-eks",
+        "title": "Self-Hosted Runners on EKS – Architecture & Pitfalls",
+        "description": "Running GitHub Actions self-hosted runners on EKS with Actions Runner Controller. Architecture, cost savings ($4,200/month), and production pitfalls.",
+        "category": "CI/CD",
+        "published": "2024-11-10",
+        "read_time": 10,
+        "reads": 500,
+        "likes": 389,
+        "tags": [
+          "self hosted github actions runners",
+          "actions runner controller",
+          "eks runners",
+          "github actions eks",
+          "arc kubernetes"
+        ],
+        "url": "https://blogs.suhebghare.tech/posts/self-hosted-runners-eks.html"
+      },
+      {
+        "slug": "sre-error-budgets-slos",
+        "title": "SLOs, SLIs, and Error Budgets That Actually Work in Production",
+        "description": "SLOs, SLIs, and error budgets that actually work in production. How to set the right SLO, calculate burn rate, and build alerts that replaced 68% of noisy ones.",
+        "category": "Observability",
+        "published": "2025-01-10",
+        "read_time": 10,
+        "reads": 980,
+        "likes": 412,
+        "tags": [
+          "sre slo sli error budget",
+          "service level objectives",
+          "error budget policy",
+          "sre metrics",
+          "burn rate alerting"
+        ],
+        "url": "https://blogs.suhebghare.tech/posts/sre-error-budgets-slos.html"
+      },
+      {
+        "slug": "statefulsets-production-lessons",
+        "title": "Real Lessons from Running StatefulSets in Production",
+        "description": "Hard lessons from running StatefulSets in production. PVC management, rolling updates, backup strategy, and when to use an operator instead.",
+        "category": "Kubernetes",
+        "published": "2024-10-28",
+        "read_time": 10,
+        "reads": 500,
+        "likes": 414,
+        "tags": [
+          "kubernetes statefulsets",
+          "statefulset production",
+          "kubernetes databases",
+          "persistent volumes",
+          "redis kubernetes"
+        ],
+        "url": "https://blogs.suhebghare.tech/posts/statefulsets-production-lessons.html"
+      },
+      {
+        "slug": "terraform-at-scale",
+        "title": "Terraform at Scale: Managing 500+ Resources Without Losing Your Mind",
+        "description": "Managing 500+ Terraform resources without losing your mind. Module structure, remote state, Terragrunt, CI/CD pipeline, and recovering from state corruption.",
+        "category": "Cloud",
+        "published": "2025-01-05",
+        "read_time": 10,
+        "reads": 1100,
+        "likes": 445,
+        "tags": [
+          "terraform at scale",
+          "terraform modules",
+          "terraform state management",
+          "terragrunt",
+          "terraform cicd"
+        ],
+        "url": "https://blogs.suhebghare.tech/posts/terraform-at-scale.html"
+      },
+      {
+        "slug": "vector-databases-qdrant-ai-search",
+        "title": "How Vector Databases (Qdrant) Power AI Search in Production",
+        "description": "",
+        "category": "DevOps",
+        "published": "2024-01-01",
+        "read_time": 18,
+        "reads": 0,
+        "likes": 0,
+        "tags": [],
+        "url": "https://blogs.suhebghare.tech/posts/vector-databases-qdrant-ai-search.html"
+      },
+      {
+        "slug": "waf-rules-bot-protection",
+        "title": "Designing WAF Rules That Actually Stop Bots",
+        "description": "Designing AWS WAF rules that block 2M bot requests/day. Rule groups, Count vs Block mode, testing methodology, and a real residential proxy bot attack.",
+        "category": "Security",
+        "published": "2024-12-05",
+        "read_time": 10,
+        "reads": 500,
+        "likes": 240,
+        "tags": [
+          "aws waf rules",
+          "waf bot protection",
+          "cloudfront waf",
+          "aws waf tutorial",
+          "bot blocking aws"
+        ],
+        "url": "https://blogs.suhebghare.tech/posts/waf-rules-bot-protection.html"
+      },
+      {
+        "slug": "zero-downtime-deployments",
+        "title": "Zero-Downtime Deployments: The Complete Playbook",
+        "description": "Complete playbook for zero-downtime deployments. Rolling, blue/green, canary with real Kubernetes configs, readinessProbe gotchas, and production incidents.",
+        "category": "CI/CD",
+        "published": "2025-01-15",
+        "read_time": 10,
+        "reads": 1240,
+        "likes": 487,
+        "tags": [
+          "zero downtime deployment kubernetes",
+          "rolling update kubernetes",
+          "blue green deployment",
+          "canary deployment",
+          "kubernetes deployment strategy"
+        ],
+        "url": "https://blogs.suhebghare.tech/posts/zero-downtime-deployments.html"
+      }
+    ]
+  },
+  "contact": {
+    "website": "https://suhebghare.tech",
+    "blog": "https://blogs.suhebghare.tech"
+  }
+}

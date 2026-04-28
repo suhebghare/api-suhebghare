@@ -1,0 +1,163 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: Personal API - suhebghare.tech
+
+Globals:
+  Api:
+    Cors:
+      AllowOrigin: "'*'"
+      AllowMethods: "'GET,OPTIONS'"
+      AllowHeaders: "'Content-Type'"
+
+Parameters:
+  DomainName:
+    Type: String
+    Default: api.suhebghare.tech
+  HostedZoneId:
+    Type: String
+    Description: Route53 Hosted Zone ID for suhebghare.tech
+
+Resources:
+  ApiCertificate:
+    Type: AWS::CertificateManager::Certificate
+    Properties:
+      DomainName: !Ref DomainName
+      ValidationMethod: DNS
+      DomainValidationOptions:
+        - DomainName: !Ref DomainName
+          HostedZoneId: !Ref HostedZoneId
+
+  ApiGatewayDomainName:
+    Type: AWS::ApiGateway::DomainName
+    Properties:
+      DomainName: !Ref DomainName
+      RegionalCertificateArn: !Ref ApiCertificate
+      EndpointConfiguration:
+        Types:
+          - REGIONAL
+
+  ApiBasePathMapping:
+    Type: AWS::ApiGateway::BasePathMapping
+    Properties:
+      DomainName: !Ref ApiGatewayDomainName
+      RestApiId: !Ref ServerlessRestApi
+      Stage: Prod
+
+  DnsRecord:
+    Type: AWS::Route53::RecordSet
+    Properties:
+      HostedZoneId: !Ref HostedZoneId
+      Name: !Ref DomainName
+      Type: A
+      AliasTarget:
+        DNSName: !GetAtt ApiGatewayDomainName.RegionalDomainName
+        HostedZoneId: !GetAtt ApiGatewayDomainName.RegionalHostedZoneId
+
+  ProfileFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      Handler: src/handler.lambda_handler
+      Runtime: python3.12
+      MemorySize: 128
+      Timeout: 10
+      Architectures:
+        - arm64
+      Events:
+        Profile:
+          Type: Api
+          Properties:
+            Path: /profile
+            Method: get
+        Blogs:
+          Type: Api
+          Properties:
+            Path: /blogs
+            Method: get
+        Health:
+          Type: Api
+          Properties:
+            Path: /health
+            Method: get
+        Projects:
+          Type: Api
+          Properties:
+            Path: /projects
+            Method: get
+        Skills:
+          Type: Api
+          Properties:
+            Path: /skills
+            Method: get
+        Education:
+          Type: Api
+          Properties:
+            Path: /education
+            Method: get
+        Contact:
+          Type: Api
+          Properties:
+            Path: /contact
+            Method: get
+        Experience:
+          Type: Api
+          Properties:
+            Path: /experience
+            Method: get
+        Certifications:
+          Type: Api
+          Properties:
+            Path: /certifications
+            Method: get
+        Addresses:
+          Type: Api
+          Properties:
+            Path: /addresses
+            Method: get
+        Languages:
+          Type: Api
+          Properties:
+            Path: /languages
+            Method: get
+        Hobbies:
+          Type: Api
+          Properties:
+            Path: /hobbies
+            Method: get
+        BlogsKubernetes:
+          Type: Api
+          Properties:
+            Path: /blogs/kubernetes
+            Method: get
+        BlogsCicd:
+          Type: Api
+          Properties:
+            Path: /blogs/cicd
+            Method: get
+        BlogsCloud:
+          Type: Api
+          Properties:
+            Path: /blogs/cloud
+            Method: get
+        BlogsSecurity:
+          Type: Api
+          Properties:
+            Path: /blogs/security
+            Method: get
+        BlogsObservability:
+          Type: Api
+          Properties:
+            Path: /blogs/observability
+            Method: get
+        BlogsAi:
+          Type: Api
+          Properties:
+            Path: /blogs/ai
+            Method: get
+
+Outputs:
+  ApiUrl:
+    Description: API Gateway endpoint URL
+    Value: !Sub "https://${ServerlessRestApi}.execute-api.${AWS::Region}.amazonaws.com/Prod/"
+  CustomDomainUrl:
+    Description: Custom domain URL
+    Value: !Sub "https://${DomainName}"

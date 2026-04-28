@@ -1,0 +1,344 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "lastUpdated": "2026-04-28",
+    "url": "https://suhebghare.tech/profile.json"
+  },
+  "profile": {
+    "name": "Suheb Ghare",
+    "title": "Senior SRE & DevOps Engineer",
+    "summary": "Senior Site Reliability Engineer and DevOps Engineer with 7+ years of hands-on experience building and operating production-grade infrastructure on AWS. Specializing in Kubernetes (EKS), GitOps, CI/CD automation, observability, FinOps, security hardening, disaster recovery, and AI-powered DevOps workflows. Based in Dubai, UAE.",
+    "location": "Dubai, UAE",
+    "openToWork": true,
+    "avatar": "https://suhebghare.tech/suheb-ai.png",
+    "resume": "https://suhebghare.tech/Suheb-Ghare-resume.pdf",
+    "website": "https://suhebghare.tech",
+    "blog": "https://blogs.suhebghare.tech"
+  },
+  "contact": {
+    "email": "suhebgharedxb@gmail.com",
+    "phone": "+971-58-2362962",
+    "whatsapp": "https://wa.me/+971582362962",
+    "linkedin": "https://www.linkedin.com/in/suhebghare",
+    "github": "https://github.com/suhebghare"
+  },
+  "education": [
+    {
+      "degree": "Bachelor of Engineering in Computer Science",
+      "school": "Mumbai University",
+      "institution": "MPCOE, Ratnagiri, Maharashtra, India",
+      "period": "2013 - 2017",
+      "description": "Focused on computer science fundamentals, software engineering, and system design. Built strong foundation in programming and technology."
+    }
+  ],
+  "certifications": [
+    {
+      "title": "AWS Certified Solutions Architect – Associate",
+      "issuer": "Amazon Web Services",
+      "year": "2023",
+      "credentialId": "1F6L3131SJREQCSW"
+    },
+    {
+      "title": "AWS Certified Cloud Practitioner",
+      "issuer": "Amazon Web Services",
+      "year": "2023"
+    }
+  ],
+  "experience": [
+    {
+      "title": "SRE / DevOps Engineer",
+      "company": "Mumzworld.com",
+      "location": "Dubai, UAE",
+      "period": "2024 - Present",
+      "type": "Full-time",
+      "description": "Leading Site Reliability Engineering and DevOps operations for a high-traffic e-commerce platform serving millions of users across the Middle East.",
+      "responsibilities": [
+        "Ensure high availability and reliability of production systems",
+        "Implement and maintain CI/CD pipelines for continuous delivery",
+        "Monitor system performance and optimize infrastructure",
+        "Manage cloud infrastructure and containerized applications on AWS EKS",
+        "Automate operational tasks and improve deployment processes",
+        "Collaborate with development teams to enhance system reliability",
+        "Drive FinOps initiatives to reduce AWS cloud spend",
+        "Implement observability using Grafana Cloud, Prometheus, Loki, and OpenTelemetry",
+        "Build AI-powered DevOps automation and agentic workflows"
+      ]
+    },
+    {
+      "title": "DevOps Engineer",
+      "company": "Western International LLC (Nesto / WIG)",
+      "location": "Dubai, UAE",
+      "period": "2022 - 2024",
+      "type": "Full-time",
+      "description": "Led DevOps initiatives and cloud infrastructure management for 10+ retail and e-commerce brands including Nesto Online, Geepas, Wigme, and INAAM loyalty platform.",
+      "responsibilities": [
+        "Automated deployment procedures for enterprise applications across Production, Staging, and Development environments",
+        "Reduced complexity and closed the gap between application changes and reliability maintenance",
+        "Deployed and configured microservice applications using Docker and Kubernetes",
+        "Designed and implemented CI/CD pipelines using Jenkins and GitHub Actions",
+        "Managed AWS cloud infrastructure and services",
+        "Implemented monitoring and alerting from scratch for 10+ brands",
+        "Led containerization and migration of legacy applications to EKS"
+      ]
+    },
+    {
+      "title": "Cloud Engineer",
+      "company": "Al-Kabeer Group of Companies",
+      "location": "UAE",
+      "period": "2018 - 2022",
+      "type": "Full-time",
+      "description": "Led full cloud migration and infrastructure automation for a large food production enterprise.",
+      "responsibilities": [
+        "Migrated full organizational workload from on-premises to AWS",
+        "Architected highly available, scalable, resilient, secure and fault-tolerant solutions on AWS",
+        "Designed multi-tier VPC architecture with EC2 Auto Scaling, RDS Multi-AZ, S3, and CloudFront",
+        "Configured fully automated CI/CD pipelines using Jenkins, AWS CodePipeline, and Shell Scripts",
+        "Provisioned all infrastructure using Terraform and CloudFormation",
+        "Implemented monitoring with CloudWatch, Nagios, and NewRelic",
+        "Designed and validated disaster recovery and backup strategies"
+      ]
+    },
+    {
+      "title": "Software Engineer",
+      "company": "Datagames Pune",
+      "location": "Pune, India",
+      "period": "2017 - 2018",
+      "type": "Full-time",
+      "description": "Developed and implemented .NET applications and Microsoft platform solutions.",
+      "responsibilities": [
+        "Assisted in analysis, architecture, design, development and implementation of .NET applications",
+        "Configured and implemented applications based on Microsoft products (.NET, SQL Server)",
+        "Contributed actively to building and growing the .NET team",
+        "Worked on application support and maintenance"
+      ]
+    }
+  ],
+  "skills": {
+    "cloud": ["AWS", "GCP", "EC2", "S3", "Lambda", "CloudFront", "CloudWatch", "VPC", "IAM", "EKS", "ECS", "RDS", "Route 53", "NAT Gateway", "ALB", "Savings Plans", "Cost Explorer"],
+    "containerization": ["Docker", "Kubernetes", "EKS", "ECS", "Helm", "GitOps", "ArgoCD", "KEDA", "Karpenter", "Istio", "HPA"],
+    "cicd": ["Jenkins", "GitHub Actions", "GitLab CI/CD", "AWS CodePipeline", "CodeBuild", "ArgoCD", "Trivy", "ECR"],
+    "observability": ["Grafana Cloud", "Prometheus", "Loki", "OpenTelemetry", "Alloy", "Tempo", "Alertmanager", "CloudWatch", "NewRelic", "PagerDuty", "ELK Stack", "Nagios"],
+    "iac": ["Terraform", "CloudFormation", "Ansible", "Atlantis", "tfsec", "Checkov"],
+    "databases": ["RDS", "PostgreSQL", "DynamoDB", "DocumentDB", "MySQL", "Redis", "S3"],
+    "security": ["AWS WAF", "AWS Shield", "Secrets Manager", "Parameter Store", "IRSA", "IAM", "VAPT", "Geo-blocking", "Rate Limiting"],
+    "ai_llm": ["OpenAI API", "Claude (Anthropic)", "LangChain", "LangGraph", "MCP (Model Context Protocol)", "Agentic AI", "RAG", "Prompt Engineering", "AI Agents", "GitHub Copilot", "Cursor", "Ollama", "Hugging Face"],
+    "languages": ["Python", "Bash", "Shell Scripting", "YAML", "HCL", "TypeScript"],
+    "sdlc": ["Jira", "Confluence", "Agile", "Scrum", "Git", "Slack", "PagerDuty"]
+  },
+  "coreCompetencies": [
+    { "name": "Production Reliability & SRE", "level": 100 },
+    { "name": "AWS Cloud Architecture", "level": 100 },
+    { "name": "Kubernetes & EKS Platform Engineering", "level": 100 },
+    { "name": "CI/CD Pipeline Design & GitOps", "level": 100 },
+    { "name": "Infrastructure as Code (Terraform)", "level": 100 },
+    { "name": "Observability & Alerting Strategy", "level": 100 },
+    { "name": "AWS FinOps & Cost Optimization", "level": 100 },
+    { "name": "Disaster Recovery & Backup Design", "level": 100 },
+    { "name": "Security Hardening & WAF", "level": 100 },
+    { "name": "Linux Systems & Shell Automation", "level": 100 },
+    { "name": "AI Agents & Agentic Workflows", "level": 95 },
+    { "name": "LLM Integration (OpenAI / Claude)", "level": 93 },
+    { "name": "MCP & Tool-Use Patterns", "level": 90 },
+    { "name": "AI-Assisted DevOps & Vibe Coding", "level": 97 }
+  ],
+  "projects": [
+    {
+      "title": "Production Reliability & Downtime Elimination",
+      "company": "Mumzworld",
+      "category": "SRE / Reliability",
+      "impact": "Production incidents down 70% · MTTR cut in half",
+      "description": "Took ownership of production reliability for a high-traffic e-commerce platform where every minute of downtime directly impacts revenue. Introduced synthetic monitoring, proactive alerting on leading indicators, and SLO-based on-call policies — shifting the team from reactive firefighting to proactive incident prevention.",
+      "tech": ["Grafana Cloud", "Prometheus", "Synthetic Monitoring", "SLO/SLI", "PagerDuty", "Loki", "Alloy"]
+    },
+    {
+      "title": "Full-Stack Observability Platform",
+      "company": "Mumzworld",
+      "category": "Observability",
+      "impact": "200+ dashboards · Blind spots eliminated",
+      "description": "Designed and deployed end-to-end observability across 20+ microservices using Grafana Cloud, Prometheus, Loki, and OpenTelemetry. Built service-level dashboards, distributed trace correlation, and structured log pipelines.",
+      "tech": ["Grafana Cloud", "Prometheus", "Loki", "OpenTelemetry", "Alloy", "Tempo", "Alertmanager"]
+    },
+    {
+      "title": "AWS FinOps — Significant Cost Reduction",
+      "company": "Mumzworld",
+      "category": "FinOps",
+      "impact": "30%+ monthly AWS spend reduced",
+      "description": "Ran a systematic FinOps audit across the entire AWS account — rightsized EC2 and RDS instances, consolidated NAT Gateways, removed idle load balancers, purchased Compute Savings Plans, and implemented EKS namespace cost allocation.",
+      "tech": ["AWS Cost Explorer", "EC2 Rightsizing", "Savings Plans", "NAT Gateway", "EKS", "Tagging Strategy", "Trusted Advisor"]
+    },
+    {
+      "title": "AI-Powered Observability & Debugging Acceleration",
+      "company": "Mumzworld",
+      "category": "AI + SRE",
+      "impact": "Debug time cut from hours to minutes",
+      "description": "Integrated AI into the observability workflow — used LLMs to auto-generate Grafana dashboards, summarize Loki log anomalies during incidents, and suggest probable root causes from alert context.",
+      "tech": ["OpenAI", "Grafana API", "Loki", "Python", "LangChain", "Slack API", "Prometheus"]
+    },
+    {
+      "title": "AI Agents for Developer & QA Self-Service",
+      "company": "Mumzworld",
+      "category": "Agentic AI",
+      "impact": "SRE support tickets reduced by 40%",
+      "description": "Built agentic AI workflows that handle common developer and QA requests autonomously — environment provisioning, log retrieval, deployment status checks, and test environment resets via Slack.",
+      "tech": ["LangChain Agents", "OpenAI", "Kubernetes API", "AWS SDK", "Slack Bolt", "Python", "FastAPI"]
+    },
+    {
+      "title": "GitOps CI/CD Platform with AI-Gated Deployments",
+      "company": "Mumzworld",
+      "category": "CI/CD",
+      "impact": "Deployment failures down 80% · 15+ teams unblocked",
+      "description": "Rebuilt the CI/CD platform using GitHub Actions with self-hosted EKS runners, Docker builds, ECR scanning via Trivy, ArgoCD GitOps, and AI-based pre-deployment validation that blocks unsafe releases.",
+      "tech": ["GitHub Actions", "ArgoCD", "Helm", "Docker", "ECR", "Trivy", "Self-hosted Runners", "OpenAI"]
+    },
+    {
+      "title": "Production EKS Platform & Kubernetes Engineering",
+      "company": "Mumzworld",
+      "category": "Platform Engineering",
+      "impact": "Zero-downtime deploys · Auto-scales to 10x traffic",
+      "description": "Owned the full lifecycle of a production EKS cluster running 20+ microservices. Implemented Istio service mesh, KEDA event-driven autoscaling, HPA, and ALB ingress with WAF integration.",
+      "tech": ["AWS EKS", "Kubernetes", "Istio", "ArgoCD", "Helm", "KEDA", "HPA", "ALB", "Karpenter"]
+    },
+    {
+      "title": "Disaster Recovery & Backup Strategy",
+      "company": "Mumzworld",
+      "category": "Disaster Recovery",
+      "impact": "RTO < 30 min · RPO < 1 hour · DR tested quarterly",
+      "description": "Designed full DR strategy — automated RDS snapshots with cross-region replication, EKS backups via Velero, S3 versioning, and quarterly DR drills to validate recovery objectives.",
+      "tech": ["Velero", "AWS RDS Snapshots", "S3 Cross-Region Replication", "Route 53 Failover", "Terraform", "Runbooks"]
+    },
+    {
+      "title": "Infrastructure as Code & Environment Standardization",
+      "company": "Mumzworld",
+      "category": "IaC",
+      "impact": "New env provisioned in minutes · Drift eliminated",
+      "description": "Migrated all AWS infrastructure to Terraform with modular components. Enforced IaC-only changes via CI gates using tfsec and Checkov. Eliminated environment drift.",
+      "tech": ["Terraform", "Ansible", "tfsec", "Checkov", "AWS", "GitHub Actions", "Atlantis"]
+    },
+    {
+      "title": "Security Hardening — WAF, Secrets & Compliance",
+      "company": "Mumzworld",
+      "category": "Security",
+      "impact": "95%+ malicious traffic blocked · Zero hardcoded secrets",
+      "description": "Multi-layer security overhaul: AWS WAF at CloudFront edge, Secrets Manager replacing hardcoded credentials with IRSA rotation, and automated compliance scanning in CI. Led VAPT remediation.",
+      "tech": ["AWS WAF", "CloudFront", "Secrets Manager", "IRSA", "Checkov", "tfsec", "VAPT", "IAM"]
+    },
+    {
+      "title": "SRE Automation & Internal Workflow Tooling",
+      "company": "Mumzworld",
+      "category": "Automation",
+      "impact": "Hours of weekly toil eliminated",
+      "description": "Automated highest-friction SRE workflows — certificate checks, stale resource cleanup, deployment health verification, and on-call handoff reports. Built Slack bots for developer self-service.",
+      "tech": ["Python", "Bash", "AWS SDK (boto3)", "Kubernetes API", "Slack API", "GitHub Actions", "Cron"]
+    },
+    {
+      "title": "Monitoring & Alerting from Zero to Production",
+      "company": "Nesto / WIG",
+      "category": "Observability",
+      "impact": "Blind production systems → full visibility",
+      "description": "Built complete observability stack from scratch covering 10+ retail brands. Defined escalation policies and on-call runbooks — the team's first structured incident response process.",
+      "tech": ["CloudWatch", "SNS", "Lambda", "Nagios", "NewRelic", "Slack Webhooks", "Runbooks"]
+    },
+    {
+      "title": "CI/CD Pipeline Modernization for Multi-Brand Platform",
+      "company": "Nesto / WIG",
+      "category": "CI/CD",
+      "impact": "Manual deploys eliminated · 3x release frequency",
+      "description": "Replaced manual deployments with fully automated Jenkins pipelines for Java and Node.js apps. Integrated Ansible config management, rollback triggers, and Slack notifications.",
+      "tech": ["Jenkins", "Ansible", "Docker", "Tomcat", "Apache", "Shell Scripting", "Git", "Slack"]
+    },
+    {
+      "title": "Kubernetes (EKS) Adoption & Container Migration",
+      "company": "Nesto / WIG",
+      "category": "Platform Engineering",
+      "impact": "Monolith containerized · Deployment time cut 60%",
+      "description": "Led containerization and migration of legacy monolithic applications to Docker and Kubernetes on AWS EKS. Designed Helm chart templates and configured ALB ingress with HPA autoscaling.",
+      "tech": ["AWS EKS", "Kubernetes", "Docker", "Helm", "ALB", "HPA", "ECR", "Terraform"]
+    },
+    {
+      "title": "Disaster Recovery & Backup Implementation",
+      "company": "Nesto / WIG",
+      "category": "Disaster Recovery",
+      "impact": "First DR plan in org history · Recovery validated",
+      "description": "Designed the organization's first formal DR strategy — automated RDS and EC2 snapshots, S3 cross-region replication, and documented recovery runbooks. Conducted first-ever DR drill.",
+      "tech": ["AWS Backup", "RDS Snapshots", "S3 Replication", "EC2 AMI", "Route 53", "Runbooks", "Terraform"]
+    },
+    {
+      "title": "Infrastructure Automation with Terraform & Ansible",
+      "company": "Nesto / WIG",
+      "category": "IaC",
+      "impact": "Manual provisioning eliminated · Consistent envs",
+      "description": "Replaced ad-hoc manual provisioning with Terraform modules covering VPC, EC2, RDS, S3, and IAM. Used Ansible for server config management across all brand environments.",
+      "tech": ["Terraform", "Ansible", "AWS", "VPC", "EC2", "RDS", "IAM", "S3"]
+    },
+    {
+      "title": "Full AWS Cloud Migration from On-Premises",
+      "company": "Al Kabeer",
+      "category": "Cloud Migration",
+      "impact": "100% workload migrated · HA architecture delivered",
+      "description": "Led end-to-end migration of all on-premises workloads to AWS. Architected HA multi-tier infrastructure with VPC, EC2 Auto Scaling, RDS Multi-AZ, S3, and CloudFront. Provisioned via Terraform and CloudFormation.",
+      "tech": ["AWS", "Terraform", "CloudFormation", "EC2 Auto Scaling", "RDS Multi-AZ", "VPC", "S3", "CloudFront"]
+    },
+    {
+      "title": "CI/CD Pipelines & Automated Deployments",
+      "company": "Al Kabeer",
+      "category": "CI/CD",
+      "impact": "Manual deployments replaced · Release risk reduced",
+      "description": "Built automated CI/CD pipelines using Jenkins and AWS CodePipeline. Integrated health checks post-deployment and replaced risky manual release processes with repeatable, auditable pipelines.",
+      "tech": ["Jenkins", "AWS CodePipeline", "CodeBuild", "Shell Scripting", "S3", "EC2", "Ansible"]
+    },
+    {
+      "title": "Infrastructure Monitoring & Incident Response Setup",
+      "company": "Al Kabeer",
+      "category": "Monitoring & SRE",
+      "impact": "Incident detection time cut by 70%",
+      "description": "Built the organization's first monitoring stack using CloudWatch, Nagios, and NewRelic. Defined alerting thresholds, SNS escalation policies, and on-call runbooks. Transformed incident response from reactive to proactive.",
+      "tech": ["CloudWatch", "Nagios", "NewRelic", "SNS", "CloudWatch Alarms", "Runbooks", "Linux", "Bash"]
+    },
+    {
+      "title": "Disaster Recovery Design & Backup Automation",
+      "company": "Al Kabeer",
+      "category": "Disaster Recovery",
+      "impact": "Business continuity guaranteed · Recovery validated",
+      "description": "Designed comprehensive DR and backup strategy — automated RDS snapshots, EC2 AMI backups, S3 versioning, and cross-region replication. Documented and validated full recovery runbooks.",
+      "tech": ["AWS Backup", "RDS Snapshots", "EC2 AMI", "S3 Versioning", "Cross-Region Replication", "Route 53", "Terraform"]
+    },
+    {
+      "title": "Infrastructure as Code & Operational Efficiency",
+      "company": "Al Kabeer",
+      "category": "IaC",
+      "impact": "Provisioning time: days → minutes",
+      "description": "Standardized all infrastructure provisioning using Terraform and Ansible — from VPC and compute to application config and OS hardening. Eliminated inconsistency of manually configured servers.",
+      "tech": ["Terraform", "Ansible", "AWS", "Linux", "Bash", "Git", "CloudFormation"]
+    },
+    {
+      "title": "Agentic AI for Incident Triage & Auto-Runbooks",
+      "company": "Personal / AI",
+      "category": "Agentic AI",
+      "impact": "Triage time: 20 min → under 3 min",
+      "description": "Built an agentic AI system that ingests Grafana alerts, pulls correlated log context from Loki, and uses an LLM to generate incident summaries, probable root causes, and step-by-step remediation actions delivered via Slack.",
+      "tech": ["OpenAI GPT-4", "LangChain", "Python", "Grafana API", "Loki API", "Slack Bolt", "FastAPI"]
+    },
+    {
+      "title": "AI-Assisted DevOps Tooling & Vibe Coding",
+      "company": "Personal / AI",
+      "category": "AI Dev",
+      "impact": "Production tools shipped 10x faster",
+      "description": "Use Cursor, Claude, and GitHub Copilot to build production-grade DevOps utilities — a Kubernetes cost analyzer, Terraform drift detector, and an internal ops dashboard — combining SRE domain knowledge with AI-assisted coding.",
+      "tech": ["Cursor", "Claude", "GitHub Copilot", "Python", "Terraform", "Kubernetes", "React", "TypeScript"]
+    }
+  ],
+  "addresses": {
+    "present": "1206, Andalusia Tower, Al Nahda 1, Dubai, UAE",
+    "permanent": "102, Amin Seth Plaza, Bhendi Naka, Chiplun, Maharashtra, India"
+  },
+  "languages": ["English", "Hindi", "Marathi"],
+  "hobbies": ["Cricket", "Traveling", "Watching Thriller Movies", "Technical Blogging"],
+  "stats": {
+    "yearsExperience": "7+",
+    "deploymentsManaged": "500+",
+    "productionUptime": "99.9%",
+    "pipelinesBuilt": "50+",
+    "projectsCompleted": "25+",
+    "certifications": 2
+  }
+}
